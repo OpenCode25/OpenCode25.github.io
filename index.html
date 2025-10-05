@@ -2,45 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>OpenCode Docs</title>
-
-  <!-- 🌐 SEO + Metadata -->
-  <meta name="description" content="Official documentation for OpenCode — the modern, open, and customizable code IDE.">
-  <meta property="og:title" content="OpenCode Docs">
-  <meta property="og:description" content="Learn how to use, build, and extend OpenCode with powerful commands and plugins.">
-  <meta property="og:image" content="https://raw.githubusercontent.com/OpenCode25/OpenCode/main/frontend/favicon.ico">
-  <meta property="og:type" content="website">
-  <meta name="theme-color" content="#0078D7">
-
-  <!-- 🧩 Favicon + App Icons -->
-  <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/OpenCode25/OpenCode/main/frontend/favicon.ico">
-  <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/OpenCode25/OpenCode/main/frontend/favicon.ico">
-
-  <!-- 🎨 Docsify Theme -->
+  <title>💻 OpenCode Docs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="https://raw.githubusercontent.com/OpenCode25/OpenCode/main/frontend/favicon.ico">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
-  <style>
-    :root {
-      --theme-color: #0078D7;
-      --sidebar-width: 260px;
-      --sidebar-background: #1e1e1e;
-      --sidebar-border-color: #333;
-      --content-max-width: 900px;
-    }
-
-    /* Optional: clean loading screen */
-    #app {
-      font-family: 'Segoe UI', system-ui, sans-serif;
-      color: #ddd;
-      text-align: center;
-      padding-top: 30vh;
-      font-size: 1.3rem;
-    }
-  </style>
 </head>
-
 <body>
-  <div id="app">🚀 Loading OpenCode Docs...</div>
+  <div id="app">Loading OpenCode Docs...</div>
 
   <script>
     window.$docsify = {
@@ -49,23 +17,12 @@
       loadSidebar: true,
       subMaxLevel: 2,
       themeColor: '#0078D7',
+      basePath: '/', // ✅ ensure Docsify looks in the root
       search: 'auto',
-      basePath: '/'
     };
   </script>
 
-  <!-- ⚙️ Core Docsify -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-
-  <!-- 🔍 Search Plugin -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-
-  <!-- 📚 Copy Code Plugin -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
-
-  <!-- 🧠 Syntax Highlighting -->
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-javascript.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
 </body>
 </html>
