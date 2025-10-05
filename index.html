@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>OpenCode Docs</title>
@@ -9,6 +9,7 @@
 </head>
 <body>
   <div id="app">Loading OpenCode Docs...</div>
+
   <script>
     window.$docsify = {
       name: 'OpenCode',
@@ -16,12 +17,15 @@
       loadSidebar: true,
       subMaxLevel: 2,
       themeColor: '#0078D7',
-      search: 'auto'
-      basePath: '/',  // 👈 this tells Docsify to load files from the root
-    loadSidebar: true,
+      search: 'auto',
+      basePath: '/' // ✅ fixed comma + comment issue
     };
   </script>
+
+  <!-- Core Docsify -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+  <!-- Plugins -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>
