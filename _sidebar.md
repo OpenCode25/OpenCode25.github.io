@@ -1,0 +1,10 @@
+- **Getting Started**
+  - [Welcome](/)
+  - [Installation](install.md)
+  - [Running Code](run.md)
+- **Docs**
+  - [Syntax Guide](syntax.md)
+  - [Functions](functions.md)
+- **About**
+  - [About Lucaza](about.md)
+  - [OpenCode Mission](mission.md)
