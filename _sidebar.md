@@ -1,10 +1,9 @@
-- **Getting Started**
-  - [Welcome](/)
-  - [Installation](install.md)
-  - [Running Code](run.md)
-- **Docs**
-  - [Syntax Guide](syntax.md)
-  - [Functions](functions.md)
-- **About**
-  - [About Lucaza](about.md)
-  - [OpenCode Mission](mission.md)
+<!-- _sidebar.md -->
+* [🏠 Home](/README.md)
+* [🚀 Getting Started](getting-started.md)
+* [⚙️ Requirements](requirements.md)
+* [💻 IDE Guide](ide-guide.md)
+* [🧠 Backend Overview](backend.md)
+* [🔧 Custom Functions](custom-functions.md)
+* [📘 Language Reference](language-reference.md)
+* [🤝 Contributing](contributing.md)
